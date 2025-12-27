@@ -1,67 +1,67 @@
 body {
-        font-family: system-ui, sans-serif;
-        margin: 0;
-        padding: 1rem;
-        background: #0f172a;
-        color: #e5e7eb;
-    }
+    font-family: system-ui, sans-serif;
+    margin: 0;
+    padding: 1rem;
+    background: #0f172a;
+    color: #e5e7eb;
+}
 
-    .controls {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-        gap: 0.75rem;
-        margin-bottom: 1rem;
-    }
+.controls {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
 
-    .controls input,
-    .controls button {
-        padding: 0.5rem;
-        font-size: 1rem;
-    }
+.controls input,
+.controls button {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
 
-    button {
-        cursor: pointer;
-        background: #2563eb;
-        color: white;
-        border: none;
-        border-radius: 4px;
-    }
+button {
+    cursor: pointer;
+    background: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+}
 
-    button:hover {
-        background: #1d4ed8;
-    }
+button:hover {
+    background: #1d4ed8;
+}
 
-    main {
-        display: grid;
-        gap: 0.5rem;
-        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-    }
+main {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+}
 
-    .box {
-        height: 80px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: bold;
-        border-radius: 6px;
-    }
+.box {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 6px;
+}
 
-    .fizzbuzz {
-        background: linear-gradient(135deg, #22c55e, #4ade80);
-        color: #022c22;
-    }
+.fizzbuzz {
+    background: linear-gradient(135deg, #6a7045, #313c33);
+    color: #c1e0c7;
+}
 
-    .fizz {
-        background: #38bdf8;
-        color: #022c44;
-    }
+.fizz {
+    background: #627C8C;
+    color: #2B3034;
+}
 
-    .buzz {
-        background: #facc15;
-        color: #422006;
-    }
+.buzz {
+    background: #b71a3b;
+    color: #e7d9d3;
+}
 
-    .number {
-        background: #334155;
-        color: #e5e7eb;
-    }
+.number {
+    background: #334155;
+    color: #e5e7eb;
+}
